@@ -1,0 +1,233 @@
+.icon_service {    
+    border: 1px solid #dfdfdf;
+    background-color: #ffffff;
+    border-radius: 50%;
+	width: 123px;
+	height: 123px;
+	line-height: 123px;
+	display: inline-block;
+	font-size: 0;
+
+}
+.icon_service img {
+	vertical-align: middle;
+	width: 40%;
+}
+
+.icon_title {
+	font-size: 15px;
+	text-transform: uppercase;
+}
+
+.service {
+	padding: 150px 0 145px 0;
+
+}
+.service_list {
+	text-align: center;
+	margin: 69px 0 0 0;
+}
+
+.service_list li {
+	display: inline-block;
+	vertical-align: top;
+	width: 16.3%;
+	text-align: center;
+
+}
+
+.icon_title {
+	height: 11px;
+	color: #000000;
+	font-family: Roboto;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 20px;
+	text-transform: uppercase;
+	padding-top: 31px;
+}
+
+.icon_title:hover {
+	color: #0075d0;
+}
+.portfolio {
+	margin-top: 8px;
+	padding-bottom: 20px;
+}
+.portfolio_header {
+	padding-top: 157px;
+}
+.wrap_portfolio {
+	background-image: url(../img/2-layers.png);
+	height: 281px;
+}
+
+.portfolio_menu{
+	text-align: center;
+	padding: 59px;
+	font-size: 15px;
+}
+.portfolio_menu li {
+	display: inline-block;
+	margin: 0 16px;
+}
+.portfolio_menu a {
+	text-decoration: none;
+	color: #6e6e6e;
+	font-size: 15px;
+}
+.portfolio_menu li:hover {
+	border-bottom: 2px solid #0075d0;
+}
+.portfolio_menu li:first-child {
+	border-bottom: 2px solid #0075d0;
+}
+.wrap_portfolio_content {
+	height: 525px;
+}
+.portfolio_content_el {
+	float: left;
+	width: 25%;
+	height: 525px;
+	border: none;
+}
+.portfolio_content_el:nth-child(1) {
+	background-image: url(../img/free-poster-mock-up.png);
+}
+.portfolio_content_el:nth-child(2) {
+	background-image: url(../img/deathtostock-wired10.png);
+}
+.portfolio_content_el:nth-child(3) {
+	background-image: url(../img/01.png);
+}
+.portfolio_content_el:nth-child(4) {
+	background-image: url(../img/deathtostock-wired4.png);
+}
+ .portfolio_content_el:hover:after{
+    content:'';
+    position: absolute;
+    width: 25%;
+    height: 525px;
+    background: rgba(0,0,0,0.5) url(../img/2-layers-plus.png) no-repeat;
+    background-position: top right;    
+} 
+.send-form {
+	margin-top: 150px;
+}
+.send-form form {
+	padding-top: 74px;
+}
+.send-form .name {
+	width: 49%;
+	height: 56px;
+}
+.send-form .email {
+	width: 49%;
+	height: 56px;
+}
+.send-form .message {
+	width: 99%;
+	height: 124px;
+	margin-top: 30px;
+}	
+.send-form .button {
+	padding: 
+}
+.send-form .button {
+	margin-left: 41.5%;
+	margin-top: 31px;
+}
+.send-form .button_in {
+	padding: 16px 35px;
+	background-color: #fff;
+	border: 1px solid #c1c1c1;
+}
+.wrap_social {
+	background-color: rgba(0, 0, 0, 0.7);
+	margin-top: 150px;	
+	position: relative;
+	
+}
+.wrap_social:after {
+	content:'';
+	background: url(../img/131h-jpg.jpg) ;
+	background-attachment: fixed;
+	z-index: -1;
+	height: 200px;
+	position: absolute;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+.content-social li {
+	height: 80px;
+	width: 80px;
+	border-radius: 80px;
+	border: 1px solid #fff;
+	display: inline-block;
+	margin: 58px 21px;
+	font-size: 0;
+	line-height: 80px;
+}
+.content-social ul {
+	text-align: center;
+}
+.content-social li:hover {
+	background-color: #0076d1;
+}
+.content-social li:first-child {
+	background-color: #0076d1;
+}
+.content-social img {
+	vertical-align: middle;
+	width: auto;
+}
+.footer {
+	height: 490px;
+}
+.content_item {
+	float: left;
+	width: 25%;
+	border: none;
+}
+.content_item h3:after {
+	content: '';
+	width: 40px;
+	height: 5px;
+	background-color: #0075d0;
+	display: block;
+	margin-top: 5px;
+}
+.content {
+	margin-top: 146px;
+}
+.content h3 {
+	text-transform: uppercase;
+	color: #6e6e6e;
+	font-family: Roboto;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 20px;
+	border-image: url(../img/rectangle-21.png) 3 round round;
+}
+.mail_subs {
+	width: 90%;
+	height: 36px;
+	background: #ececec;
+	border: 1px solid #d4d4d4;
+	margin-top: 36px;
+}
+.content_item p {
+	margin-top: 32px;
+}
+.button_subs {
+padding: 10px;
+background-color: #3d3d3d;
+margin-top: 5px;
+color: #fff;
+border: 1px solid #3d3d3d;
+}
+.copyright {
+text-align: center;
+padding-top: 155px;
+}

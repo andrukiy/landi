@@ -1,0 +1,250 @@
+
+
+.paragraphW {
+	width: 38%;
+	margin: 0 auto;
+	padding-top: 27px;
+	text-align: center;
+}
+
+.faces {
+	padding: 87px 15px 140px 15px;
+
+}
+
+.galery__item {
+	position: relative;
+	width: 22.66%;
+	float: left;
+	margin: 1%;
+}
+
+.galery__item:hover .soc {
+	visibility: visible;
+}
+
+.img {
+	width: 100%
+}
+
+.fases-t {
+	padding-top: 29px;
+	margin: 0 auto;
+	font-size: 15px;
+	font-weight: 700;
+	line-height: 20px;
+	text-transform: uppercase;
+	text-align: center;
+}
+.fases-pr {
+	padding-top: 15px; /*не 18 на учет автоотступов*/
+	margin: 0 auto;
+	color: #0075d0;
+	/*font-family: Roboto;*/
+	/*font-size: 15px;*/
+	font-weight: 700;
+	line-height: 20px;
+	text-align: center;
+}
+
+.fases-pr::after {
+	content: '';
+	width: 9px;
+    height: 9px;
+    display: block;
+   	background-color: #959595;
+	border-radius: 50%;
+    margin: 17px auto 0;
+}
+
+.soc {
+	position: absolute;
+	/*top: 11px;*/
+	left: 0;
+	width: 50px;
+	/*width: 100;
+	height: 120px;*/
+	z-index: 1;
+	padding-top: 11px;
+	padding-bottom: 10px;
+	/*margin-top: 10px;*/
+	visibility: hidden;	
+}
+
+
+.soc1 {padding-bottom: 8px;
+
+}
+
+.cnopka {
+padding-top: 57px;
+margin-top: 57px;
+width: 244px;
+border-radius: 27px;
+border: 2px solid #ffffff;
+text-align: center;
+
+}
+
+.cnopka-text {
+padding-top: 24px;
+padding-bottom: 24px;	
+margin: 50px auto 0;
+font-size: 17px;
+/*font-weight: 400;
+*/line-height: 9px;
+text-transform: uppercase;
+/*text-align: center;*/
+
+}
+.container-blue {
+	width: 100%;
+	/*margin-top: 50px;*/
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background: url(../img/rectangle-12.png);
+	color: #ffffff;
+
+}
+
+.treugolnik {
+	width: 0;
+	height: 0;
+	border-left: 13px solid transparent;
+	border-right: 13px solid transparent;
+	border-top: 13px solid #ffffff;
+	z-index: 20;
+	margin: 0 auto;
+	position: absolute;
+	top: -50px;
+	left: 0;
+	right: 0;
+	/*margin-top: -50px;*/
+}
+
+.treugolnik-polog{
+	position: relative;
+}
+
+/*Юля, будешь должна бутылку, Рома))*/
+.clients_menu {
+	margin-top: 127px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 20px;
+	text-transform: uppercase;
+	font-size: 0;
+}
+
+.clients_menu .client {
+	width: 202px;
+	height: 92px;
+	border: 1px solid #cacaca;
+	text-align: center;
+	box-sizing: border-box;
+/*	padding-top: 35px;
+	padding-bottom: 35px;*/
+	line-height: 92px;
+	/*float: left;*/
+	margin-right: 51px;
+	display: inline-block;
+	font-size: 30px;
+
+}
+
+.clients_menu .client:first-child {
+	margin-left: 123px;
+}
+
+.clients_menu .client:last-child {
+	margin-right: 0;
+}
+
+ span.art {
+	background: #000;
+	color: #eee;
+	font-weight: 400;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+span.design {
+	font-weight: 300;
+}
+
+/*
+2-й вариант
+.triangle_black {
+	width: 48px;
+	display: inline-block;
+	vertical-align: -14px;
+	position: relative;
+	z-index: 1;
+}
+
+.triangle_grey {
+	width: 48px;
+	position: absolute;
+	top: 0;
+	left: 8px;
+	z-index: -1;
+}*/
+
+.clients_menu li.triangle_black {
+	position: relative;
+	text-align: right;
+	padding-right: 14px;
+}
+
+li.triangle_black::before {
+	content: "";
+	border: 48px solid transparent;
+	border-left-color: #969696;
+	position: absolute;
+	transform: matrix(1, 0, 0, 0.5, 0, 0);
+	left: 20px;
+}
+
+li.triangle_black::after {
+	content: "";
+	border: 48px solid transparent;
+	border-left-color: #000;
+	position: absolute;
+	transform: matrix(1, 0, 0, 0.5, 0, 0);
+	left: 12px;
+}
+
+
+span.the_next {
+	text-transform: none;
+	font-weight: 100;
+}
+
+.client_menu_pointers {
+	width: 114px;
+	margin: 60px auto 0;
+	font-size: 0;
+}
+
+.client_menu_pointer {
+	width: 20px;
+	height: 20px;
+	border: 1px solid #c2c2c2;
+	border-radius: 10px;
+	display: inline-block;
+	margin-left: 8px;
+}
+
+.client_menu_pointer:hover {
+	cursor: pointer;
+}
+
+.client_menu_pointer:first-child {
+	margin-left: 0;
+	border-color: #000;
+}
+
+.padding_bottom {
+	padding-bottom: 150px;
+}
