@@ -13,7 +13,7 @@
 	height: 100px;
 }
 
-.header_wrap_menu .container, .future_posts_wrap .container {
+.header_wrap_menu .future_posts_wrap {
 	margin: auto;
 }
 

@@ -106,10 +106,9 @@ text-transform: uppercase;
 }
 .container-blue {
 	width: 100%;
-	/*margin-top: 50px;*/
 	padding-top: 50px;
 	padding-bottom: 50px;
-	background: url(../img/rectangle-12.png);
+	background: #0075d0;
 	color: #ffffff;
 
 }

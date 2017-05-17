@@ -94,10 +94,8 @@
 
 .counter_wrap {
 	margin-top: 147px;
-	height: 260px;
-	background-image: url(../img/deathtostock-wired8.jpg);	
-	background-size: cover;
-	background-position: 50% 50%;
+
+	background: #0075d0;	
 }
 
 .counter_menu {
