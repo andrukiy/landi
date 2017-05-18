@@ -14,11 +14,6 @@
     width: 40%;
 }
 
-.icon_title {
-    font-size: 15px;
-    text-transform: uppercase;
-}
-
 .service {
     padding: 150px 0 145px 0;
 }
@@ -27,6 +22,10 @@
     text-align: center;
     margin: 69px 0 0 0;
 }
+.icon_title:first-child {
+    color: #0075d0;
+}
+
 
 .service_list li {
     display: inline-block;
@@ -57,7 +56,7 @@
     background-image: url(../img/2-layers.png);
     -webkit-background-size: cover;
     background-size: cover;
-    background-position: 50% 50%; 
+    background-position: 50% 50%;
 }
 
 .portfolio_menu {
@@ -88,19 +87,19 @@
     border: none;
 }
 
-.portfolio_content_el:nth-child(1) {
+.elem1 {
     background-image: url(../img/free-poster-mock-up.png);
 }
 
-.portfolio_content_el:nth-child(2) {
+.elem2 {
     background-image: url(../img/deathtostock-wired10.png);
 }
 
-.portfolio_content_el:nth-child(3) {
+.elem3 {
     background-image: url(../img/01.png);
 }
 
-.portfolio_content_el:nth-child(4) {
+.elem4 {
     background-image: url(../img/deathtostock-wired4.png);
 }
 
@@ -194,8 +193,6 @@
     width: auto;
 }
 
-
-
 .content_item {
     float: left;
     width: 25%;
@@ -247,12 +244,13 @@
 
 .copyright {
     text-align: center;
-    padding-top: 155px;
+    padding-top: 80px;
 }
 
 @media screen and (max-width: 950px) {
     .service_list li {
         width: 25.3%;
+        padding-bottom: 10px;
     }
     .portfolio_content_el {
         width: 50%;
@@ -265,6 +263,7 @@
 @media screen and (max-width: 660px) {
     .service_list li {
         width: 33.3%;
+        padding-bottom: 10px;
     }
     .send-form .name {
         width: 100%;
@@ -282,11 +281,11 @@
         margin-top: 30px;
     }
     .content_item {
-    width: 50%;
-    padding-top: 15px;
-    height: 25vh;
-    overflow: hidden;
-}
+        width: 50%;
+        padding-top: 15px;
+        height: 25vh;
+        overflow: hidden;
+    }
     .content {
         margin-top: 130px;
     }
@@ -294,17 +293,23 @@
 
 @media screen and (max-width: 550px) {
     .wrap_social:after {
-        height: 396px;
+        height: 400px;
     }
     .content {
-    margin-top: 80px;
-}
-
+        margin-top: 80px;
+    }
+    .content-social li{
+        height: 82px;
+        width: 82px;
+        line-height: 82px;
+        margin: 58px 9%;
+    }
 }
 
 @media screen and (max-width: 440px) {
     .service_list li {
         width: 50%;
+        padding-bottom: 10px;
     }
     .portfolio_content_el {
         width: 100%;
@@ -312,18 +317,35 @@
     .portfolio_content_el:hover:after {
         width: 100%;
     }
-            .content_item {
-    width: 100%;
-    padding-top: 15px;
-    height: 25vh;
-    overflow: hidden;
-    text-align: center;
+    .content_item {
+        width: 100%;
+        padding-top: 15px;
+        height: 25vh;
+        overflow: hidden;
+        text-align: center;
+    }
+    .content_item h3:after {
+        width: 90px;
+        margin: 5px auto;
+    }
+    .content {
+        margin-top: 80px;
+    }
+    .portfolio_menu {
+    padding: 25px 0;
 }
-.content_item h3:after {
-    width: 90px;
-    margin: 5px auto;
+    .portfolio_menu a {
+    padding: 25px 0;
+    display: block;
+    line-height: 30px;
+    padding: 0;
+    margin: 0;
 }
-.content {
-    margin-top: 80px;
+.portfolio_menu a:first-child {
+    background-color: lavender;
 }
+.portfolio_menu a:hover {
+    background-color: lavender;
+}
+
 }
