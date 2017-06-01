@@ -1,130 +1,180 @@
+/*.reviews {
+    margin-top: 5%;
+}*/
 .reviews {
-	margin-top: 47px;
+	position: relative;
 }
-
 .reviews_wrap {
-	width: 33.33%;
-	font: 15px/20px 'Roboto', sans-serif;
-	float: left;
-	margin-top: 50px;
+    width: 33.33%;
+    font: 15px/20px 'Roboto', sans-serif;
+    float: left;
+    margin-top: 7%;
 }
 
 .avatar {
-    width: 110px;
+    width: 35%;
     border-radius: 55px;
     float: left;
 }
 
+
 .reviews_content {
-	margin-left: 125px;
-	padding-right: 32px;
+    margin-left: 38%;
+    padding: 0 2%;
 }
 
+
 .reviews_content .name {
-	font-weight: 700;
-	color: #0a7bd2;
+    font-weight: 700;
+    color: #0a7bd2;
 }
 
 .reviews_content > .review {
-	padding: 15px 27px 11px 14px;
-	background: #0075d0;
-	color: #fff;
+    padding: 15px 27px 11px 14px;
+    background: #0075d0;
+    color: #fff;
 }
 
 .pointers {
-	width: 50px;
-	margin: 100px auto 0;
-	font-size: 0;
+    width: 35%;
+    margin: 40% auto 0;
+    position: absolute;
+    font-size: 0;
+    left: 40%;
+    margin: 10%;
 }
 
 .pointers > .pointer {
-	width: 10px;
-	height: 10px;
-	border-radius: 5px;
-	background: #969696;
-	display: inline-block;
-	margin-left: 10px;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background: #969696;
+    display: inline-block;
+    margin-left: 10px;
 }
 
 .pointers > .pointer:first-child {
-	margin-left: 0;
-	background: #000;
+    margin-left: 0;
+    background: #000;
 }
 
 .pointers > .pointer:hover {
-	cursor: pointer;
+    cursor: pointer;
 }
 
-
-
-
-
 .about_us_menu {
-	margin-top: 90px;
-	font: 15px/20px 'Roboto', sans-serif;
+    margin-top: 90px;
+    font: 15px/20px 'Roboto', sans-serif;
 }
 
 .about_us_wrap {
-	width: 33.33%;
-	box-sizing: border-box;
-	padding-right: 31px;
-	margin-top: 13px;
-	float: left;
+    width: 33.33%;
+    box-sizing: border-box;
+    padding-right: 31px;
+    margin-top: 13px;
+    float: left;
 }
 
 .content_title {
-	font-size: 19px;
-	position: relative;
+    font-size: 19px;
+    position: relative;
 }
 
 .content_title::after {
-	content: "";
-	width: 50px;
-	height: 4px;
-	background: #0075d0;
-	position: absolute;
-	top: 30px;
-	left: 0;
+    content: "";
+    width: 50px;
+    height: 4px;
+    background: #0075d0;
+    position: absolute;
+    top: 30px;
+    left: 0;
 }
 
 .about_us_content {
-	margin-top: 39px;
-	color: #696969;
+    margin-top: 39px;
+    color: #696969;
 }
 
 .counter_wrap {
-	margin-top: 147px;
-
-	background: #0075d0;	
+    margin-top: 10%;
+    
+    background-image: url(../img/deathtostock-wired8.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
 }
 
 .counter_menu {
-	
-	font-family: 'Roboto', sans-serif;
-	color: #fff;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
 }
 
-.counter_menu > .counter {
-	width: 25%;
-	text-align: center;
-	float: left;
-	padding: 50px 0;
-}
-
-.counter .pict {
-	width: 50px;
-	margin: auto;
-	margin-bottom: 32px;
+/*.counter_menu >*/ .counter {
+    width: 25%;
+    text-align: center;
+    float: left;
+    padding: 50px 0;
 }
 
 .counter .count {
-	font-size: 50px;
-	font-weight: 700;
-	line-height: 28px;
-	margin-bottom: 26px;
+    font-size: 50px ;
+    font-weight: 700;
+    line-height: 28px;
+    margin-bottom: 26px;
 }
 
 .counter_name {
-	font-size: 19px;
-	line-height: 20px;
+    font-size: 19px;
+    line-height: 20px;
+}
+
+@media screen and (max-width: 950px) {
+    .counter .count {
+    	font-size: 40px;
+    }
+}
+@media screen and (max-width: 850px) {
+    .counter .count {
+    	font-size: 35px;
+    }
+}
+@media screen and (max-width: 660px) {/* для адаптива */
+    .about_us_wrap {
+        width: 100%;
+    }
+   .content_title {
+   		width: 30px;
+    	margin: 0 auto;
+   } 
+   .content_title::after {
+   		content: "";
+    	width: 50px;
+    	height: 4px;
+    	background: #0075d0;
+    }
+        .counter .count {
+    	font-size: 30px;
+    }
+} 
+
+@media screen and (max-width: 660px) {/* для адаптива */
+    .counter {
+        width: 45%;
+    }
+   } 
+.counter .pict {
+    width: 22%;
+    margin: auto;
+    margin-bottom: 32px;
+}
+
+@media screen and (max-width: 660px) {/* для адаптива */
+    .reviews_wrap {
+        width: 100%;
+    }
+    .avatar {
+    	width: 30%;
+    }
+.reviews_content {
+    margin-left: 33%;
+   }
 }

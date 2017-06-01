@@ -1,21 +1,26 @@
 
 
-.paragraphW {
+.paragrafW {
 	width: 38%;
-	margin: 0 auto;
-	padding-top: 27px;
-	text-align: center;
-}
-.paragraphW {
-	width: 38%;
-	margin: 0 auto;
-	padding-top: 27px;
+	margin: 1% auto;
+	padding-top: 1.7%;
 	text-align: center;
 }
 
+@media screen and (max-width: 660px) {/* ДОБАВИЛА для адаптива */
+	.paragrafW {
+		width: 80%;
+	}
+}
+
+@media screen and (max-width: 320px) {/* ДОБАВИЛА для адаптива */
+	.paragrafW {
+		width: 90%;
+	}
+}
 
 .faces {
-	padding: 87px 15px 140px 15px;
+	padding: 3.5% 1% 7% 1%
 
 }
 
@@ -26,16 +31,30 @@
 	margin: 1%;
 }
 
+@media screen and (max-width: 660px) {/* ДОБАВИЛА для адаптива */
+	.galery__item {
+		width: 48%;
+	}
+}
+
+@media screen and (max-width: 320px) {/* ДОБАВИЛА для адаптива */
+	.galery__item {
+		width: 100%;
+	}
+}
+    
+
+
 .galery__item:hover .soc {
 	visibility: visible;
 }
 
-.img {
+img {
 	width: 100%
 }
 
 .fases-t {
-	padding-top: 29px;
+	padding-top: 1.8%;
 	margin: 0 auto;
 	font-size: 15px;
 	font-weight: 700;
@@ -44,7 +63,7 @@
 	text-align: center;
 }
 .fases-pr {
-	padding-top: 15px; /*не 18 на учет автоотступов*/
+	padding-top: 1%; /*не 18px на учет автоотступов*/
 	margin: 0 auto;
 	color: #0075d0;
 	/*font-family: Roboto;*/
@@ -61,19 +80,19 @@
     display: block;
    	background-color: #959595;
 	border-radius: 50%;
-    margin: 17px auto 0;
+    margin: 1.2% auto 0;
 }
 
 .soc {
 	position: absolute;
 	/*top: 11px;*/
 	left: 0;
-	width: 50px;
+	width: 18%;
 	/*width: 100;
 	height: 120px;*/
 	z-index: 1;
-	padding-top: 11px;
-	padding-bottom: 10px;
+	padding-top: 4%;
+	padding-bottom: 1%;
 	/*margin-top: 10px;*/
 	visibility: hidden;	
 }
@@ -84,9 +103,9 @@
 }
 
 .cnopka {
-padding-top: 57px;
-margin-top: 57px;
-width: 244px;
+/* padding-top: 3%;
+margin-top: 5%; */
+max-width: 244px;
 border-radius: 27px;
 border: 2px solid #ffffff;
 text-align: center;
@@ -94,22 +113,24 @@ text-align: center;
 }
 
 .cnopka-text {
-padding-top: 24px;
-padding-bottom: 24px;	
-margin: 50px auto 0;
+padding-top: 2%;
+padding-bottom: 2%;	
+margin: 7% auto 0;
 font-size: 17px;
 /*font-weight: 400;
-*/line-height: 9px;
+*/line-height: 20px;
 text-transform: uppercase;
 /*text-align: center;*/
 
 }
 .container-blue {
 	width: 100%;
+	/*margin-top: 50px;*/
 	padding-top: 50px;
 	padding-bottom: 50px;
-	background: #0075d0;
+	background: url(../img/rectangle-12.png);
 	color: #ffffff;
+	text-align: center;
 
 }
 
@@ -130,21 +151,40 @@ text-transform: uppercase;
 
 .treugolnik-polog{
 	position: relative;
+
+
 }
 
-/*Юля, будешь должна бутылку, Рома))*/
 .clients_menu {
 	margin-top: 127px;
+	text-align: center;
+	text-align-last: center;
+	margin: 0 auto;
+/* 	padding-right: -4%; */
 	font-family: 'Roboto', sans-serif;
-	font-size: 30px;
+	font-size: 2em;
 	font-weight: 700;
 	line-height: 20px;
 	text-transform: uppercase;
 	font-size: 0;
+
+}
+
+
+@media screen and (max-width: 955px) {/* ДОБАВИЛА для адаптива */
+	.clients_menu {
+		width: 52%;
+	}
+}
+
+@media screen and (max-width: 520px) {/* ДОБАВИЛА для адаптива */
+	.clients_menu {
+		width: 100%;
+	}
 }
 
 .clients_menu .client {
-	width: 202px;
+	min-width: 202px;
 	height: 92px;
 	border: 1px solid #cacaca;
 	text-align: center;
@@ -153,15 +193,16 @@ text-transform: uppercase;
 	padding-bottom: 35px;*/
 	line-height: 92px;
 	/*float: left;*/
-	margin-right: 51px;
+	margin-right: 4%;
+	margin-bottom: 2%;
 	display: inline-block;
 	font-size: 30px;
 
 }
 
-.clients_menu .client:first-child {
+/* .clients_menu .client:first-child {
 	margin-left: 123px;
-}
+} */
 
 .clients_menu .client:last-child {
 	margin-right: 0;
