@@ -130,9 +130,12 @@
     background-color: #0076d1;
     width: 25px;
     height: 25px;
-    padding-top: 3px;
     border-radius: 13px;
     border: none;
+    vertical-align: middle;
+}
+
+.magnifier img, .cart img {
     vertical-align: middle;
 }
 
@@ -222,16 +225,15 @@ button.arrow_down:hover {
 
 @media screen and (max-width: 1010px) {
     
-    .magnifier{
-        margin-top: 27px;
-        display: block;
-    } 
-
-    .cart {
-        display: block;
-        margin: 0;
-        margin-top: 16px;
+    .button_container {
+        line-height: 50px;
+        width: 25px;
     }
+
+    .magnifier, .cart {
+        display: inline-block;
+        margin: 0;
+    } 
 
     .header_menu {
         line-height: 50px;
