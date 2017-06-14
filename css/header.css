@@ -23,18 +23,14 @@
 .header_emblem {
     float: left;
     display: inline-block;
-
-}
-
-.header_emblem a {
     text-decoration: none;
 }
 
-.header_emblem a:visited {
+.header_emblem:visited {
     color: #000;
 }
 
-.header_emblem div {
+.header_emblem__image {
     width: 83px;
     height: 60px;
     display: inline-block;
@@ -43,21 +39,13 @@
 }
 
 .header_title {
+    vertical-align: middle;
     font-size: 26px;
 }
 
 .header_title > span {
     font-weight: 900;
 }
-
-.header_emblem div + span {
-    vertical-align: middle;
-}
-
-
-
-
-
 
 .header_menu {
     max-width: 738px;
@@ -79,9 +67,6 @@
 .header_menu_item a:hover {
     text-decoration: underline;
 }
-
-
-
 
 
 
@@ -110,7 +95,6 @@
     display: none;
 }
 
-
 .button_container {
     display: inline-block;
     vertical-align: middle;
@@ -135,7 +119,8 @@
     vertical-align: middle;
 }
 
-.magnifier img, .cart img {
+.magnifier img,
+.cart img {
     vertical-align: middle;
 }
 
@@ -224,32 +209,33 @@ button.arrow_down:hover {
 
 
 @media screen and (max-width: 1010px) {
-    
     .button_container {
         line-height: 50px;
         width: 25px;
     }
-
-    .magnifier, .cart {
+    .magnifier,
+    .cart {
         display: inline-block;
         margin: 0;
-    } 
-
+    }
     .header_menu {
         line-height: 50px;
         max-width: 350px
     }
 }
 
+
+
+
+
+
 @media screen and (max-width: 623px) {
     .header_menu_btn {
         display: block;
     }
-
     .header_wrap_menu {
         opacity: 1;
     }
-
     .header_menu {
         position: absolute;
         max-width: 100%;
@@ -258,24 +244,19 @@ button.arrow_down:hover {
         left: 0;
         width: 100%;
         margin: 0;
-        min-width: 303px; 
+        min-width: 303px;
     }
-
     .menu_list {
         display: none;
     }
-
     #header_menu_checkbox:checked + .menu_list {
         display: block;
     }
-
     .header_menu_item {
         display: block;
         text-align: center;
         padding-right: 0;
-
     }
-
     .header_menu a {
         display: block;
         padding: 10px;
@@ -283,20 +264,16 @@ button.arrow_down:hover {
         font-size: 1.5em;
         color: #fff;
     }
-
     .header_menu a:hover {
         text-decoration: none;
         color: #000;
     }
-
     .header_menu_item:hover {
         background: #fff;
     }
-
     .arrow_down {
         visibility: hidden;
     }
-
     .slogan {
         padding-top: 130px;
     }
